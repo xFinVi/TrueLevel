@@ -131,7 +131,7 @@ p {
     line-height: 2.3;
     display: flex;
     align-items: center;
-    background-image: url(/FilsProject/photos/5.jpg);
+    background-image: url(./5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -253,7 +253,7 @@ p {
     justify-content: center;
     align-items: center;
     background-color: rgb(167, 167, 167);
-    background-image: url(/FilsProject/photos/1.jpg);
+    background-image: url(./1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;

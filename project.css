@@ -131,7 +131,7 @@ p {
     line-height: 2.3;
     display: flex;
     align-items: center;
-    background-image: url(/FilsProject/photos/5.jpg);
+    background-image: url(./5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -226,7 +226,7 @@ p {
     display: flex;
     align-items: center;
     background-color: rgb(167, 167, 167);
-    background-image: url(/FilsProject/photos/3.jpg);
+    background-image: url(./3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -289,7 +289,7 @@ i {
         grid-template-columns: repeat(2,1fr);
     }
 }
-@media (min-width: 520px) {
+@media (max-width: 520px) {
     .grid {
         grid-template-columns: repeat(2,1fr);
     }

@@ -189,12 +189,13 @@ p {
 }
 
 #lightbox img {
-    width: auto;
-    max-width: 1080px;
+    width: 1020px;
+    max-width: 100%;
     padding: 4px;
     background-color: black;
     border: 2px solid white;
 }
+
 
 /* .card-1 {
 

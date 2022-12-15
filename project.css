@@ -131,7 +131,7 @@ p {
     line-height: 2.3;
     display: flex;
     align-items: center;
-    background-image: url(./5.jpg);
+    background-image: url(/FilsProject/photos/5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -214,9 +214,35 @@ p {
 
 
 
-/* ABOUT ME PAGE */
 
 
+/* 
+// Company PAGE //  */
+.aboutme {
+    border-radius: 1%;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+}
+
+.box-wrapper  {
+    border: 2px solid black;
+    padding: .5em;
+    margin:  2em .5em;
+    line-height: 2.5;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.para {
+    padding: 25px;
+    font-weight: bold;
+    text-align: center;
+}
 
 .under-aboutme {
     margin-top: 10px;
@@ -224,13 +250,15 @@ p {
     font-size: 1.5em;
     line-height: 2.3;
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: rgb(167, 167, 167);
-    background-image: url(./3.jpg);
+    background-image: url(/FilsProject/photos/1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
-    height: 500px; 
+    padding-top: 5em;
+    padding-bottom: 5em; 
     background-blend-mode: multiply;
     background-position: center;
     animation: nav-load 500ms ease-out;
@@ -240,6 +268,9 @@ p {
     font-weight: bold;
     font-size: 1em;
 }
+
+/* MEDIA QUERIES */
+
 
 /* FOOTER  */
 
@@ -296,13 +327,23 @@ i {
 }
 
 /* MEDIA QUERIES */
-@media(max-width: 525px) {
+@media(max-width: 637px) {
 
-    /*    .scaffo {   
-           display: flex;
-           flex-direction: column;
-           font-size: .75em;
-       } */
+    .scaffo {   
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 3.5em;
+        
+    }
+    .under-typo {
+        font-size: .75em;
+    }
+
+    .para {
+        line-height: 2.25;
+        font-weight: 700;
+
+    }
 
        .under {
            font-size: 1em;
@@ -366,6 +407,12 @@ i {
            font-size: 1.5em;
            padding-top: .75em;
        }
+       .container-links a:hover {
+        background-color: #555;
+        transition: .2s ease-in;
+        padding: 10px;
+        border-radius: 5px;
+    }
    }
    @keyframes nav-load {
        0%{
@@ -387,86 +434,3 @@ i {
 }
 
 
-
-
-/* 
-// Company PAGE //  */
-.aboutme {
-    border-radius: 40%;
-    display: flex;
-    justify-content: center;
-
-}
-
-.box-wrapper  {
-    border: 2px solid black;
-    padding: 25px;
-    margin: 85px;
-    line-height: 2.5;
-}
-
-.box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.para {
-    padding: 25px;
-    font-weight: bold;
-    text-align: center;
-}
-.pictures {
-    height: 600px;
-}
-.pics {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.pics img {
-    width: 550px;
-}
-
-
-/* MEDIA QUERIES */
-@media(max-width: 638px) {
-    .navbar, .container, .under, footer  {
-       flex-direction: column;
-       background-size: auto;
-       text-align: center;
-       
-    }
-    .logo {
-        display: none;
-    }
-
-    .scaffo {
-        flex-direction: column;
-    }
-    .scaffo > a {
-        margin: 0 auto;
-    }
-    .under {
-        background-size: auto;
-    }
-    #lightbox img {
-        width: auto;
-        max-width: 480px;
-        padding: 4px;
-        background-color: black;
-        border: 2px solid white;
-    }
-    
-}
-@keyframes nav-load {
-    0%{
-        transform: translateY(-100%);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
-}

@@ -307,13 +307,31 @@ i {
 
 
 /* MEDIA QUERIES */
-@media(max-width: 440px) {
+@media(max-width: 637px) {
 
-       .scaffo {   
-           display: flex;
-           flex-direction: column;
-           font-size: .75em;
-       }
+    .container-links a:hover {
+        background-color: #555;
+        transition: .2s ease-in;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .scaffo {   
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 3.5em;
+        
+    }
+    .under-typo {
+        font-size: .75em;
+    }
+
+    .para {
+        line-height: 2.25;
+        font-weight: 700;
+
+    }
+
        .under {
            font-size: 1em;
            font-weight: 600;
@@ -325,9 +343,12 @@ i {
            overflow: scroll;
        }
        .grid {
-           display: flex;
-           flex-direction: column;
-       }
+           display: grid;
+           grid-template-columns: repeat(1,1fr); 
+        }
+        .grid img {
+            width: 100%;
+        }
        
        footer {
            flex-direction: column;

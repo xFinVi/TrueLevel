@@ -124,7 +124,7 @@ p {
     line-height: 2.3;
     display: flex;
     align-items: center;
-    background-image: url(./5.jpg);
+    background-image: url(/FilsProject/photos/5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -262,6 +262,12 @@ i {
 /* RESPONSIVE DESIGN*/
 @media(max-width: 638px) {
 
+    .container-links a:hover {
+        background-color: #555;
+        transition: .2s ease-in;
+        padding: 10px;
+        border-radius: 5px;
+    }
     .scaffo {   
         display: flex;
         flex-direction: column;

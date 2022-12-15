@@ -101,10 +101,14 @@ p {
     border-radius: 10px;
 }
 
-.brand-title {
+.brand-title a{
     font-size: 1.5em;
     margin: .5rem;
+    list-style: none;
+    text-decoration: none;
+    color: white;
 }
+
 
 /* HEADER WITH LOGO */
 

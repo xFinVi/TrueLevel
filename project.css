@@ -89,11 +89,13 @@ p {
     border-radius: 10px;
 }
 
-.brand-title {
+.brand-title a{
     font-size: 1.5em;
     margin: .5rem;
+    list-style: none;
+    text-decoration: none;
+    color: white;
 }
-
 
 
 
@@ -131,7 +133,7 @@ p {
     line-height: 2.3;
     display: flex;
     align-items: center;
-    background-image: url(./5.jpg);
+    background-image: url(/FilsProject/photos/5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -196,7 +198,6 @@ p {
     border: 2px solid white;
 }
 
-
 /* .card-1 {
 
     grid-column: 1 / 4;
@@ -254,7 +255,7 @@ p {
     justify-content: center;
     align-items: center;
     background-color: rgb(167, 167, 167);
-    background-image: url(./1.jpg);
+    background-image: url(/FilsProject/photos/1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -413,6 +414,9 @@ i {
         transition: .2s ease-in;
         padding: 10px;
         border-radius: 5px;
+
+       
+        
     }
    }
    @keyframes nav-load {

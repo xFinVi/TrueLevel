@@ -195,7 +195,7 @@ p {
 }
 
 #lightbox img {
-    width: auto;
+    width: 1020px;
     max-width: 100%;
     padding: 4px;
     background-color: black;

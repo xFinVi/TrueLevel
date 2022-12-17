@@ -455,6 +455,16 @@ i {
 /* MEDIA QUERIES */
 @media(max-width: 637px) {
 
+    .box h1  {
+        text-align: center;
+    }
+    .para-whole {
+        flex-direction: column;
+    }
+    .box-wrapper {
+        padding: 0;
+        margin: 0;
+    }
     .scaffo {   
         display: flex;
         flex-direction: column;

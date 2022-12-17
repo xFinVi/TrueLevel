@@ -453,6 +453,8 @@ i {
     }
     .under-typo {
         font-size: .75em;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .para {

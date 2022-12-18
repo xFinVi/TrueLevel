@@ -362,6 +362,7 @@ i {
         display: flex;
         flex-direction: column;
         overflow: scroll;
+        font-size: 1em;
     }
     .grid {
         display: flex;

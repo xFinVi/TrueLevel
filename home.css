@@ -204,14 +204,16 @@ p {
 .content {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
-    font-size: 1em;
+    font-size: 1.15em;
     font-weight: 500;
     padding: 2em;
     margin: 5em 0;
     gap: 2em;
-    background-image: url(./photos/2.jpg);
+    max-width: 100%;
+    background-position: center;
+    background-image: url(./photos/9.jpg);
     background-blend-mode: multiply;
-    background-color: #555;
+    background-color: #777;
     background-repeat: no-repeat;
     background-size: cover;
 }

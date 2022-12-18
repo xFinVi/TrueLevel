@@ -131,7 +131,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(/FilsProject/photos/5.jpg);
+    background-image: url(./photos/5.jpg);
     background-blend-mode: multiply;
     background-color: #777;
     background-repeat: no-repeat;
@@ -209,7 +209,7 @@ p {
     padding: 2em;
     margin: 5em 0;
     gap: 2em;
-    background-image: url(/FilsProject/2.jpg);
+    background-image: url(./photos/2.jpg);
     background-blend-mode: multiply;
     background-color: #555;
     background-repeat: no-repeat;
@@ -423,21 +423,21 @@ i {
 
 @keyframes change {
     0% {
-        background-image: url(/FilsProject/1.jpg);
+        background-image: url(./photos/1.jpg);
     }
     20% {
-        background-image: url(/FilsProject/2.jpg);
+        background-image: url(./photos/2.jpg);
     }
     40% {
-        background-image: url(/FilsProject/5.jpg);
+        background-image: url(./photos/5.jpg);
     }
     60% {
-        background-image: url(/FilsProject/4.jpg);
+        background-image: url(./photos/4.jpg);
     }
     80% {
-        background-image: url(/FilsProject/3.jpg);
+        background-image: url(./photos/3.jpg);
     }
     100% {
-        background-image: url(/FilsProject/1.jpg);
+        background-image: url(./photos/1.jpg);
     }
 }

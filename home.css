@@ -161,15 +161,15 @@ p {
 }
 
 /* CONTENT AND INFORMATION ABOUT BUSINESS AND PROJECTS */
-.quotemsg {
+.bar1 {
     margin: 2em 0;
     padding: 1em;
-    background-color: #555;
+    background-color: rgba(70, 69, 69, 0.863);
     opacity: .8;
     color: white;
     text-align: center;
 }
-.quotemsg a {
+.bar1 a {
     text-decoration: none; 
     color: white;
     border: 2px solid white;
@@ -180,23 +180,23 @@ p {
     background-color: rgba(211, 211, 211, .3);
 }
 
-.quotemsg a:hover {
+.bar1 a:hover {
     background-color: #888;
 }
-.quotemsg h1 {
+.bar1 h1 {
 
     border-top: 4px solid #fff;
     padding: .5em 0; 
 
 }
 
-.quotemsg h2 {
+.bar1 h2 {
     padding: .5em 0;
     border-right: 4px solid #fff;
     border-left: 4px solid #fff;
 }
 
-.quotemsg h3 {
+.bar1 h3 {
     padding: .5em 0;
     border-bottom: 4px solid #fff;
 }

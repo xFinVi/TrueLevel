@@ -129,8 +129,9 @@ p {
     font-size: 1.5em;
     line-height: 2.3;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    background-image: url(./5.jpg);
+    background-image: url(/FilsProject/photos/5.jpg);
     background-blend-mode: multiply;
     background-color: #777;
     background-repeat: no-repeat;
@@ -141,27 +142,103 @@ p {
     animation: nav-load 500ms ease-out;
     animation: change 10s infinite ease-in-out;
 }
+.under p {
+    font-weight: bold;
+}
+
+.under a {
+    text-decoration: none; 
+    color: white;
+    border: 2px solid white;
+    margin-top: 1em;
+    padding: .5em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: rgba(211, 211, 211, .3);
+}
+.under a:hover {
+    background-color: #888;
+}
 
 /* CONTENT AND INFORMATION ABOUT BUSINESS AND PROJECTS */
+.bar {
+    margin: 2em 0;
+    padding: 1em;
+    background-color: #555;
+    opacity: .8;
+    color: white;
+    text-align: center;
+}
+.bar a {
+    text-decoration: none; 
+    color: white;
+    border: 2px solid white;
+    margin-top: 1em;
+    padding: .5em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: rgba(211, 211, 211, .3);
+}
+
+.bar a:hover {
+    background-color: #888;
+}
+.bar h1 {
+
+    border-top: 4px solid #fff;
+    padding: .5em 0; 
+
+}
+
+.bar h2 {
+    padding: .5em 0;
+    border-right: 4px solid #fff;
+    border-left: 4px solid #fff;
+}
+
+.bar h3 {
+    padding: .5em 0;
+    border-bottom: 4px solid #fff;
+}
+
 .content {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
     font-size: 1em;
     font-weight: 500;
     padding: 2em;
+    margin: 5em 0;
     gap: 2em;
-    background-color: rgba(211, 211, 211, .5);
+    background-image: url(/FilsProject/2.jpg);
+    background-blend-mode: multiply;
+    background-color: #555;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sideline {
-    background-color: #fff;
+    background-color: rgba(211, 211, 211, .9);
     margin: 1em;
     padding: 2em;
-    border: 2px solid #777;
     box-shadow: 0 14px 28px #777;
+    color: #333;
+    font-weight: bold;
 }
 
+.sideline h1 {
+    border: 3px solid #fff;
+    padding: .75em;
+    font-weight: bold;
+    color: #333;
+}
 
+.sideline ul {
+    text-align: center;
+}
+
+.sideline ul li {
+    padding: .5em 0;
+}
 .container-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
@@ -346,21 +423,21 @@ i {
 
 @keyframes change {
     0% {
-        background-image: url(./1.jpg);
+        background-image: url(/FilsProject/1.jpg);
     }
     20% {
-        background-image: url(./2.jpg);
+        background-image: url(/FilsProject/2.jpg);
     }
     40% {
-        background-image: url(./5.jpg);
+        background-image: url(/FilsProject/5.jpg);
     }
     60% {
-        background-image: url(./4.jpg);
+        background-image: url(/FilsProject/4.jpg);
     }
     80% {
-        background-image: url(./3.jpg);
+        background-image: url(/FilsProject/3.jpg);
     }
     100% {
-        background-image: url(./1.jpg);
+        background-image: url(/FilsProject/1.jpg);
     }
 }
